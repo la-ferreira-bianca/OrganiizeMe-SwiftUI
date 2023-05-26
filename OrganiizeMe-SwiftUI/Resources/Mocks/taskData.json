@@ -1,0 +1,98 @@
+[
+    {
+        "name": "Turtle Rock",
+        "category": "Tarefas",
+        "id": 1001,
+        "isFavorite": true,
+        "description": "Descrição da task",
+        "imageName": "house"
+    },
+    {
+        "name": "Silver Salmon Creek",
+        "category": "Tarefas",
+        "id": 1002,
+        "isFavorite": false,
+        "description": "Descrição da task",
+        "imageName": "tree.fill"
+    },
+    {
+        "name": "Chilkoot Trail",
+        "category": "Tarefas",
+        "id": 1003,
+        "isFavorite": true,
+        "description": "Descrição da task",
+        "imageName": "t.square.fill"
+    },
+    {
+        "name": "St. Mary Lake",
+        "category": "Tarefas",
+        "id": 1004,
+        "isFavorite": true,
+        "description": "Descrição da task",
+        "imageName": "person.crop.circle.badge.exclamationmark.fill"
+    },
+    {
+        "name": "Twin Lake",
+        "category": "Lembretes",
+        "id": 1005,
+        "isFavorite": false,
+        "description": "Descrição da task",
+        "imageName": "photo.artframe"
+    },
+    {
+        "name": "Lake McDonald",
+        "category": "Lembretes",
+        "id": 1006,
+        "isFavorite": false,
+        "description": "Descrição da task",
+        "imageName": "basketball.circle.fill"
+    },
+    {
+        "name": "Charley Rivers",
+        "category": "Lembretes",
+        "id": 1007,
+        "isFavorite": false,
+        "description": "Descrição da task",
+        "imageName": "tennis.racket.circle.fill"
+    },
+    {
+        "name": "Icy Bay",
+        "category": "Lembretes",
+        "id": 1008,
+        "isFavorite": false,
+        "description": "Descrição da task",
+        "imageName": "sunset.circle"
+    },
+    {
+        "name": "Rainbow Lake",
+        "category": "Lembretes",
+        "id": 1009,
+        "isFavorite": false,
+        "description": "Descrição da task",
+        "imageName": "arrow.up.left.and.down.right.magnifyingglass"
+    },
+    {
+        "name": "Hidden Lake",
+        "category": "Lembretes",
+        "id": 1010,
+        "isFavorite": false,
+        "description": "Descrição da task",
+        "imageName": "rectangle.split.1x2.fill"
+    },
+    {
+        "name": "Chincoteague",
+        "category": "Lembretes",
+        "id": 1011,
+        "isFavorite": false,
+        "description": "Descrição da task",
+        "imageName": "rectangle.portrait.on.rectangle.portrait.fill"
+    },
+    {
+        "name": "Lake Umbagog",
+        "category": "Lembretes",
+        "id": 1012,
+        "isFavorite": false,
+        "description": "Descrição da task",
+        "imageName": "arrow.counterclockwise.icloud.fill"
+    }
+]
