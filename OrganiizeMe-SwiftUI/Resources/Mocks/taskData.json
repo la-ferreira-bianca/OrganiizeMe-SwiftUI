@@ -1,7 +1,12 @@
 [
     {
         "name": "Turtle Rock",
-        "category": "Tarefas",
+        "category": {
+            "name": "Twin Lake",
+            "id": 1005,
+            "description": "Descrição da task",
+            "iconName": "photo.artframe"
+        },
         "id": 1001,
         "isFavorite": true,
         "description": "Descrição da task",
@@ -9,7 +14,12 @@
     },
     {
         "name": "Silver Salmon Creek",
-        "category": "Tarefas",
+        "category": {
+            "name": "Twin Lake",
+            "id": 1005,
+            "description": "Descrição da task",
+            "iconName": "tree.fill"
+        },
         "id": 1002,
         "isFavorite": false,
         "description": "Descrição da task",
@@ -17,7 +27,12 @@
     },
     {
         "name": "Chilkoot Trail",
-        "category": "Tarefas",
+        "category": {
+            "name": "Twin Lake",
+            "id": 1005,
+            "description": "Descrição da task",
+            "iconName": "photo.artframe"
+        },
         "id": 1003,
         "isFavorite": true,
         "description": "Descrição da task",
@@ -25,7 +40,12 @@
     },
     {
         "name": "St. Mary Lake",
-        "category": "Tarefas",
+        "category": {
+            "name": "Twin Lake",
+            "id": 1005,
+            "description": "Descrição da task",
+            "iconName": "photo.artframe"
+        },
         "id": 1004,
         "isFavorite": true,
         "description": "Descrição da task",
@@ -33,7 +53,12 @@
     },
     {
         "name": "Twin Lake",
-        "category": "Lembretes",
+        "category": {
+            "name": "Twin Lake",
+            "id": 1005,
+            "description": "Descrição da task",
+            "iconName": "photo.artframe"
+        },
         "id": 1005,
         "isFavorite": false,
         "description": "Descrição da task",
@@ -41,7 +66,12 @@
     },
     {
         "name": "Lake McDonald",
-        "category": "Lembretes",
+        "category": {
+            "name": "Twin Lake",
+            "id": 1005,
+            "description": "Descrição da task",
+            "iconName": "photo.artframe"
+        },
         "id": 1006,
         "isFavorite": false,
         "description": "Descrição da task",
@@ -49,7 +79,12 @@
     },
     {
         "name": "Charley Rivers",
-        "category": "Lembretes",
+        "category": {
+            "name": "Twin Lake",
+            "id": 1005,
+            "description": "Descrição da task",
+            "iconName": "photo.artframe"
+        },
         "id": 1007,
         "isFavorite": false,
         "description": "Descrição da task",
@@ -57,7 +92,12 @@
     },
     {
         "name": "Icy Bay",
-        "category": "Lembretes",
+        "category": {
+            "name": "Twin Lake",
+            "id": 1005,
+            "description": "Descrição da task",
+            "iconName": "photo.artframe"
+        },
         "id": 1008,
         "isFavorite": false,
         "description": "Descrição da task",
@@ -65,7 +105,12 @@
     },
     {
         "name": "Rainbow Lake",
-        "category": "Lembretes",
+        "category": {
+            "name": "Twin Lake",
+            "id": 1005,
+            "description": "Descrição da task",
+            "iconName": "photo.artframe"
+        },
         "id": 1009,
         "isFavorite": false,
         "description": "Descrição da task",
@@ -73,7 +118,12 @@
     },
     {
         "name": "Hidden Lake",
-        "category": "Lembretes",
+        "category": {
+            "name": "Twin Lake",
+            "id": 1005,
+            "description": "Descrição da task",
+            "iconName": "photo.artframe"
+        },
         "id": 1010,
         "isFavorite": false,
         "description": "Descrição da task",
@@ -81,7 +131,12 @@
     },
     {
         "name": "Chincoteague",
-        "category": "Lembretes",
+        "category": {
+            "name": "Twin Lake",
+            "id": 1005,
+            "description": "Descrição da task",
+            "iconName": "photo.artframe"
+        },
         "id": 1011,
         "isFavorite": false,
         "description": "Descrição da task",
@@ -89,7 +144,12 @@
     },
     {
         "name": "Lake Umbagog",
-        "category": "Lembretes",
+        "category": {
+            "name": "Twin Lake",
+            "id": 1005,
+            "description": "Descrição da task",
+            "iconName": "photo.artframe"
+        },
         "id": 1012,
         "isFavorite": false,
         "description": "Descrição da task",

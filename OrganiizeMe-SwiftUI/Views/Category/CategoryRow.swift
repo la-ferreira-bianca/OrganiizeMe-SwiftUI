@@ -34,11 +34,11 @@ struct CategoryRow: View {
 }
 
 struct CategoryRow_Previews: PreviewProvider {
-    static var tasks = ModelData().tasks
+    static var tasks = TaskData().tasks
     
     static var previews: some View {
         CategoryRow(
-            categoryName: tasks[0].category.rawValue,
+            categoryName: tasks[0].category.name,
             tasks: Array(tasks.prefix(4)))
     }
 }

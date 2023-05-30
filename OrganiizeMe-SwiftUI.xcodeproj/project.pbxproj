@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F1288C762A26756A0062DED2 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1288C752A26756A0062DED2 /* Category.swift */; };
+		F1288C782A2676830062DED2 /* categoryData.json in Resources */ = {isa = PBXBuildFile; fileRef = F1288C772A2676830062DED2 /* categoryData.json */; };
+		F1288C7D2A2676F00062DED2 /* CategoryData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1288C7C2A2676F00062DED2 /* CategoryData.swift */; };
+		F1288C7F2A26772D0062DED2 /* LoadFromFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1288C7E2A26772D0062DED2 /* LoadFromFile.swift */; };
+		F135628A2A2139DE00B204D3 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = F13562892A2139DE00B204D3 /* Home.swift */; };
 		F1501A912A2110ED008A73B4 /* OrganiizeMe_SwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1501A902A2110ED008A73B4 /* OrganiizeMe_SwiftUIApp.swift */; };
 		F1501A932A2110ED008A73B4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1501A922A2110ED008A73B4 /* ContentView.swift */; };
 		F1501A952A2110EE008A73B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1501A942A2110EE008A73B4 /* Assets.xcassets */; };
@@ -17,7 +22,7 @@
 		F1501AC52A21133C008A73B4 /* taskData.json in Resources */ = {isa = PBXBuildFile; fileRef = F1501AC42A21133C008A73B4 /* taskData.json */; };
 		F1501AC72A21139F008A73B4 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1501AC62A21139F008A73B4 /* Task.swift */; };
 		F1501ACB2A21142F008A73B4 /* TaskList.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1501ACA2A21142F008A73B4 /* TaskList.swift */; };
-		F1501ACD2A21144B008A73B4 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1501ACC2A21144B008A73B4 /* ModelData.swift */; };
+		F1501ACD2A21144B008A73B4 /* TaskData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1501ACC2A21144B008A73B4 /* TaskData.swift */; };
 		F1501ACF2A211628008A73B4 /* TaskDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1501ACE2A211628008A73B4 /* TaskDetail.swift */; };
 		F1501AD22A2117A6008A73B4 /* FavoriteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1501AD12A2117A6008A73B4 /* FavoriteButton.swift */; };
 		F1501AD42A211A9C008A73B4 /* TaskRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1501AD32A211A9C008A73B4 /* TaskRow.swift */; };
@@ -48,6 +53,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F1288C752A26756A0062DED2 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		F1288C772A2676830062DED2 /* categoryData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = categoryData.json; sourceTree = "<group>"; };
+		F1288C7C2A2676F00062DED2 /* CategoryData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryData.swift; sourceTree = "<group>"; };
+		F1288C7E2A26772D0062DED2 /* LoadFromFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadFromFile.swift; sourceTree = "<group>"; };
+		F13562892A2139DE00B204D3 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 		F1501A8D2A2110ED008A73B4 /* OrganiizeMe-SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "OrganiizeMe-SwiftUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1501A902A2110ED008A73B4 /* OrganiizeMe_SwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrganiizeMe_SwiftUIApp.swift; sourceTree = "<group>"; };
 		F1501A922A2110ED008A73B4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -61,7 +71,7 @@
 		F1501AC42A21133C008A73B4 /* taskData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = taskData.json; sourceTree = "<group>"; };
 		F1501AC62A21139F008A73B4 /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
 		F1501ACA2A21142F008A73B4 /* TaskList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskList.swift; sourceTree = "<group>"; };
-		F1501ACC2A21144B008A73B4 /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
+		F1501ACC2A21144B008A73B4 /* TaskData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskData.swift; sourceTree = "<group>"; };
 		F1501ACE2A211628008A73B4 /* TaskDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskDetail.swift; sourceTree = "<group>"; };
 		F1501AD12A2117A6008A73B4 /* FavoriteButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteButton.swift; sourceTree = "<group>"; };
 		F1501AD32A211A9C008A73B4 /* TaskRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskRow.swift; sourceTree = "<group>"; };
@@ -99,6 +109,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F1288C7A2A2676DB0062DED2 /* Task */ = {
+			isa = PBXGroup;
+			children = (
+				F1501AC62A21139F008A73B4 /* Task.swift */,
+				F1501ACC2A21144B008A73B4 /* TaskData.swift */,
+			);
+			path = Task;
+			sourceTree = "<group>";
+		};
+		F1288C7B2A2676E50062DED2 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				F1288C752A26756A0062DED2 /* Category.swift */,
+				F1288C7C2A2676F00062DED2 /* CategoryData.swift */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		F13562882A2139D700B204D3 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				F13562892A2139DE00B204D3 /* Home.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
 		F1501A842A2110ED008A73B4 = {
 			isa = PBXGroup;
 			children = (
@@ -158,6 +194,7 @@
 		F1501ABA2A2110F8008A73B4 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				F13562882A2139D700B204D3 /* Home */,
 				F1501ADB2A212E29008A73B4 /* Profile */,
 				F1501AD62A211BB5008A73B4 /* Category */,
 				F1501AD52A211BAB008A73B4 /* Task */,
@@ -179,8 +216,8 @@
 		F1501ABC2A211123008A73B4 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				F1501AC62A21139F008A73B4 /* Task.swift */,
-				F1501ACC2A21144B008A73B4 /* ModelData.swift */,
+				F1288C7B2A2676E50062DED2 /* Category */,
+				F1288C7A2A2676DB0062DED2 /* Task */,
 				F1501ADE2A212E6B008A73B4 /* Profile.swift */,
 			);
 			path = Models;
@@ -189,6 +226,8 @@
 		F1501ABD2A21117F008A73B4 /* Mocks */ = {
 			isa = PBXGroup;
 			children = (
+				F1288C7E2A26772D0062DED2 /* LoadFromFile.swift */,
+				F1288C772A2676830062DED2 /* categoryData.json */,
 				F1501AC42A21133C008A73B4 /* taskData.json */,
 			);
 			path = Mocks;
@@ -348,6 +387,7 @@
 				F1501A982A2110EE008A73B4 /* Preview Assets.xcassets in Resources */,
 				F1501AC52A21133C008A73B4 /* taskData.json in Resources */,
 				F1501A952A2110EE008A73B4 /* Assets.xcassets in Resources */,
+				F1288C782A2676830062DED2 /* categoryData.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -373,6 +413,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F1501ACB2A21142F008A73B4 /* TaskList.swift in Sources */,
+				F1288C7D2A2676F00062DED2 /* CategoryData.swift in Sources */,
 				F1501ADF2A212E6B008A73B4 /* Profile.swift in Sources */,
 				F1501AD82A211BCF008A73B4 /* CategoryHome.swift in Sources */,
 				F1501ADA2A211D15008A73B4 /* CategoryRow.swift in Sources */,
@@ -380,12 +421,15 @@
 				F1501ACF2A211628008A73B4 /* TaskDetail.swift in Sources */,
 				F1501A932A2110ED008A73B4 /* ContentView.swift in Sources */,
 				F1501AD42A211A9C008A73B4 /* TaskRow.swift in Sources */,
-				F1501ACD2A21144B008A73B4 /* ModelData.swift in Sources */,
+				F1501ACD2A21144B008A73B4 /* TaskData.swift in Sources */,
 				F1501AD22A2117A6008A73B4 /* FavoriteButton.swift in Sources */,
 				F1501AC72A21139F008A73B4 /* Task.swift in Sources */,
+				F1288C7F2A26772D0062DED2 /* LoadFromFile.swift in Sources */,
+				F1288C762A26756A0062DED2 /* Category.swift in Sources */,
 				F1501A912A2110ED008A73B4 /* OrganiizeMe_SwiftUIApp.swift in Sources */,
 				F1501ADD2A212E34008A73B4 /* ProfileHost.swift in Sources */,
 				F1501AE52A213424008A73B4 /* CategoryItem.swift in Sources */,
+				F135628A2A2139DE00B204D3 /* Home.swift in Sources */,
 				F1501AE12A212FFE008A73B4 /* ProfileSummary.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

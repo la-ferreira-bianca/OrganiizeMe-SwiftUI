@@ -1,5 +1,5 @@
 //
-//  CategoryHome.swift
+//  Home.swift
 //  OrganiizeMe-SwiftUI
 //
 //  Created by Bianca Ferreira on 26/05/23.
@@ -7,20 +7,14 @@
 
 import SwiftUI
 
-struct CategoryHome: View {
+struct Home: View {
     @EnvironmentObject var modelData: TaskData
     @State private var showingProfile: Bool = false
-    
     var body: some View {
-        NavigationView {
+        NavigationView{
             List {
-                ForEach(modelData.categories.keys.sorted(), id: \.self) { key in
-                    CategoryRow(categoryName: key, tasks: modelData.categories[key]!)
-                }
-                .listRowInsets(EdgeInsets())
+//                ForEach(defaultCategories.)
             }
-            .listStyle(.inset)
-            .navigationTitle("Categories")
             .toolbar {
                 Button {
                     showingProfile.toggle()
@@ -35,8 +29,8 @@ struct CategoryHome: View {
     }
 }
 
-struct CategoryHome_Previews: PreviewProvider {
+struct Home_Previews: PreviewProvider {
     static var previews: some View {
-        CategoryHome().environmentObject(TaskData())
+        Home().environmentObject(TaskData())
     }
 }

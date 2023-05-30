@@ -13,10 +13,5 @@ struct Task: Hashable, Codable, Identifiable {
     var description: String
     var imageName: String
     var isFavorite: Bool
-    
     var category: Category
-    enum Category: String, CaseIterable, Codable {
-        case task = "Tarefas"
-        case reminders = "Lembretes"
-    }
 }

@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct TaskList: View {
-    @EnvironmentObject var modelData: ModelData
+    @EnvironmentObject var modelData: TaskData
     //TODO: Change to see what is going to be if favority or other thing
     @State private var showFavorityOnly = false
     
@@ -40,6 +40,6 @@ struct TaskList: View {
 
 struct TaskList_Previews: PreviewProvider {
     static var previews: some View {
-        TaskList().environmentObject(ModelData())
+        TaskList().environmentObject(TaskData())
     }
 }

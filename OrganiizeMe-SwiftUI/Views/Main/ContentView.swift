@@ -8,32 +8,39 @@
 import SwiftUI
 
 struct ContentView: View {
-    @State private var selection: Tab = .featured
+    @State private var selection: Tab = .home
     
     enum Tab {
-        case featured
-        case list
+        case home
+        case category
+        case tasks
     }
     
     var body: some View {
         TabView(selection: $selection) {
-            CategoryHome()
+            Home()
                 .tabItem {
-                    Label("Categorias", systemImage: "star")
+                    Label("Home", systemImage: "house.fill")
                 }
-                .tag(Tab.featured)
+                .tag(Tab.home)
             
             TaskList()
                 .tabItem {
                     Label("Tarefas", systemImage: "list.bullet")
                 }
-                .tag(Tab.list)
+                .tag(Tab.tasks)
+            
+            CategoryHome()
+                .tabItem {
+                    Label("Categorias", systemImage: "star")
+                }
+                .tag(Tab.category)
         }
     }
 }
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView().environmentObject(ModelData())
+        ContentView().environmentObject(TaskData())
     }
 }

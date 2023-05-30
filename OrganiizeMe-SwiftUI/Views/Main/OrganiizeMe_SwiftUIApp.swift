@@ -9,11 +9,11 @@ import SwiftUI
 
 @main
 struct OrganiizeMe_SwiftUIApp: App {
-    @StateObject private var modelData = ModelData()
+    @StateObject private var modelData = TaskData()
     
     var body: some Scene {
         WindowGroup {
-            ContentView().environmentObject(ModelData())
+            ContentView().environmentObject(TaskData())
         }
     }
 }

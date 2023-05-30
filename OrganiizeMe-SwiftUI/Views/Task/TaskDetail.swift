@@ -9,7 +9,7 @@ import SwiftUI
 
 struct TaskDetail: View {
     //MARK: - @Variables
-    @EnvironmentObject var modelData: ModelData
+    @EnvironmentObject var modelData: TaskData
     
     //MARK: - Variables
     var padding = EdgeInsets(top: 0, leading: 10, bottom: 0, trailing: 10)
@@ -30,7 +30,8 @@ struct TaskDetail: View {
                 Spacer()
                 
                 HStack {
-                    Text(task.category.rawValue)
+                    Text(task.category.name)
+                    Image(systemName: task.category.iconName)
                 }
                 
                 Divider()
@@ -48,6 +49,6 @@ struct TaskDetail: View {
 
 struct TaskDetail_Previews: PreviewProvider {
     static var previews: some View {
-        TaskDetail(task: ModelData().tasks[2]).environmentObject(ModelData())
+        TaskDetail(task: TaskData().tasks[1]).environmentObject(TaskData())
     }
 }
