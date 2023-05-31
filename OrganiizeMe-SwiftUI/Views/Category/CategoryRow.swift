@@ -9,7 +9,7 @@ import SwiftUI
 
 struct CategoryRow: View {
     var categoryName: String
-    var tasks: [Task]
+    var categories: [Category]
     
     var body: some View {
         VStack(alignment: .leading) {
@@ -20,11 +20,11 @@ struct CategoryRow: View {
             
             ScrollView(.horizontal, showsIndicators: false) {
                 HStack(alignment: .top, spacing: 0) {
-                    ForEach(tasks) { task in
+                    ForEach(categories) { category in
                         NavigationLink {
-                            TaskDetail(task: task)
+//                            TaskDetail(task: task)
                         } label: {
-                            CategoryItem(task: task)
+                            CategoryItem(category: category)
                         }
                     }
                 }
@@ -34,11 +34,11 @@ struct CategoryRow: View {
 }
 
 struct CategoryRow_Previews: PreviewProvider {
-    static var tasks = TaskData().tasks
+    static var category = CategoryData().category
     
     static var previews: some View {
         CategoryRow(
-            categoryName: tasks[0].category.name,
-            tasks: Array(tasks.prefix(4)))
+            categoryName: category[0].name,
+            categories: Array(category.prefix(4)))
     }
 }

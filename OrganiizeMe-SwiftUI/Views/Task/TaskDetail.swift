@@ -9,13 +9,13 @@ import SwiftUI
 
 struct TaskDetail: View {
     //MARK: - @Variables
-    @EnvironmentObject var modelData: TaskData
+    @EnvironmentObject var taskData: TaskData
     
     //MARK: - Variables
     var padding = EdgeInsets(top: 0, leading: 10, bottom: 0, trailing: 10)
     var task: Task
     var taskIndex: Int {
-        modelData.tasks.firstIndex(where: { $0.id == task.id })!
+        taskData.tasks.firstIndex(where: { $0.id == task.id })!
     }
     
     var body: some View {
@@ -24,7 +24,7 @@ struct TaskDetail: View {
                 HStack {
                     Text(task.name)
                         .font(.title)
-                    FavoriteButton(isSet: $modelData.tasks[taskIndex].isFavorite)
+                    FavoriteButton(isSet: $taskData.tasks[taskIndex].isFavorite)
                 }
                 
                 Spacer()

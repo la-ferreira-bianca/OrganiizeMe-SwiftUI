@@ -7,13 +7,28 @@
 
 import SwiftUI
 
+//TODO: - THIS IS NOT HOME, IS CATEGORY VIEW CHANGE LATER
 struct Home: View {
-    @EnvironmentObject var modelData: TaskData
+    @EnvironmentObject var taskData: TaskData
+    @EnvironmentObject var categoryData: CategoryData
     @State private var showingProfile: Bool = false
+    
     var body: some View {
         NavigationView{
-            List {
-//                ForEach(defaultCategories.)
+            VStack {
+                Text("Inserir um novo item")
+                Text("Items de hoje")
+                List {
+                    ForEach(categoryData.categories.keys.sorted(), id: \.self) { key in
+                        CategoryRow(categoryName: key, categories: categoryData.categories[key]!)
+                    }
+                }
+                List {
+                    ForEach((0..<3), id: \.self) { _ in
+                        Text("")
+                    }
+                }
+                
             }
             .toolbar {
                 Button {
@@ -24,7 +39,9 @@ struct Home: View {
             }
         }
         .sheet(isPresented: $showingProfile) {
-            ProfileHost().environmentObject(TaskData())
+            ProfileHost()
+                .environmentObject(TaskData())
+                .environmentObject(CategoryData())
         }
     }
 }

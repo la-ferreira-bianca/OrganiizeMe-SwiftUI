@@ -2,9 +2,9 @@
     {
         "name": "Turtle Rock",
         "category": {
-            "name": "Twin Lake",
+            "name": "Tarefa",
             "id": 1005,
-            "description": "Descrição da task",
+            "description": "Tarefas que devo concluir",
             "iconName": "photo.artframe"
         },
         "id": 1001,
@@ -15,9 +15,9 @@
     {
         "name": "Silver Salmon Creek",
         "category": {
-            "name": "Twin Lake",
+            "name": "Lembretes",
             "id": 1005,
-            "description": "Descrição da task",
+            "description": "Lembretes que preciso fazer",
             "iconName": "tree.fill"
         },
         "id": 1002,
@@ -28,9 +28,9 @@
     {
         "name": "Chilkoot Trail",
         "category": {
-            "name": "Twin Lake",
+            "name": "Lembretes",
             "id": 1005,
-            "description": "Descrição da task",
+            "description": "Lembretes que preciso fazer",
             "iconName": "photo.artframe"
         },
         "id": 1003,
@@ -41,9 +41,9 @@
     {
         "name": "St. Mary Lake",
         "category": {
-            "name": "Twin Lake",
+            "name": "Lembretes",
             "id": 1005,
-            "description": "Descrição da task",
+            "description": "Lembretes que preciso fazer",
             "iconName": "photo.artframe"
         },
         "id": 1004,
@@ -54,9 +54,9 @@
     {
         "name": "Twin Lake",
         "category": {
-            "name": "Twin Lake",
+            "name": "Lembretes",
             "id": 1005,
-            "description": "Descrição da task",
+            "description": "Lembretes que preciso fazer",
             "iconName": "photo.artframe"
         },
         "id": 1005,
@@ -67,9 +67,9 @@
     {
         "name": "Lake McDonald",
         "category": {
-            "name": "Twin Lake",
+            "name": "Tarefa",
             "id": 1005,
-            "description": "Descrição da task",
+            "description": "Tarefas que devo concluir",
             "iconName": "photo.artframe"
         },
         "id": 1006,
@@ -80,9 +80,9 @@
     {
         "name": "Charley Rivers",
         "category": {
-            "name": "Twin Lake",
+            "name": "Tarefa",
             "id": 1005,
-            "description": "Descrição da task",
+            "description": "Tarefas que devo concluir",
             "iconName": "photo.artframe"
         },
         "id": 1007,
@@ -93,9 +93,9 @@
     {
         "name": "Icy Bay",
         "category": {
-            "name": "Twin Lake",
+            "name": "Tarefa",
             "id": 1005,
-            "description": "Descrição da task",
+            "description": "Tarefas que devo concluir",
             "iconName": "photo.artframe"
         },
         "id": 1008,
@@ -106,9 +106,9 @@
     {
         "name": "Rainbow Lake",
         "category": {
-            "name": "Twin Lake",
+            "name": "Dia a Dia",
             "id": 1005,
-            "description": "Descrição da task",
+            "description": "Tarefas que devo concluir dia a dia",
             "iconName": "photo.artframe"
         },
         "id": 1009,
@@ -119,9 +119,9 @@
     {
         "name": "Hidden Lake",
         "category": {
-            "name": "Twin Lake",
+            "name": "Dia a Dia",
             "id": 1005,
-            "description": "Descrição da task",
+            "description": "Tarefas que devo concluir dia a dia",
             "iconName": "photo.artframe"
         },
         "id": 1010,
@@ -132,9 +132,9 @@
     {
         "name": "Chincoteague",
         "category": {
-            "name": "Twin Lake",
+            "name": "Dia a Dia",
             "id": 1005,
-            "description": "Descrição da task",
+            "description": "Tarefas que devo concluir dia a dia",
             "iconName": "photo.artframe"
         },
         "id": 1011,
@@ -145,9 +145,9 @@
     {
         "name": "Lake Umbagog",
         "category": {
-            "name": "Twin Lake",
+            "name": "Dia a Dia",
             "id": 1005,
-            "description": "Descrição da task",
+            "description": "Tarefas que devo concluir dia a dia",
             "iconName": "photo.artframe"
         },
         "id": 1012,

@@ -8,16 +8,16 @@
 import SwiftUI
 
 struct CategoryItem: View {
-    var task: Task
+    var category: Category
     
     var body: some View {
-        VStack(alignment: .leading) {
-            Image(systemName: task.imageName)
+        VStack(alignment: .center) {
+            Image(systemName: category.iconName)
                 .resizable()
-                .frame(width: 155, height: 155)
+                .frame(width: 50, height: 50)
                 .contrast(5)
             
-            Text(task.name)
+            Text(category.name)
                 .foregroundColor(.primary)
                 .font(.caption)
         }
@@ -28,6 +28,6 @@ struct CategoryItem: View {
 
 struct CategoryItem_Previews: PreviewProvider {
     static var previews: some View {
-        CategoryItem(task: TaskData().tasks[0])
+        CategoryItem(category: CategoryData().category[0])
     }
 }

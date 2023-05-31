@@ -8,12 +8,12 @@
 import SwiftUI
 
 struct TaskList: View {
-    @EnvironmentObject var modelData: TaskData
+    @EnvironmentObject var taskData: TaskData
     //TODO: Change to see what is going to be if favority or other thing
     @State private var showFavorityOnly = false
     
     var filtredTasks: [Task] {
-        modelData.tasks.filter { task in
+        taskData.tasks.filter { task in
             (!showFavorityOnly || task.isFavorite)
             
         }

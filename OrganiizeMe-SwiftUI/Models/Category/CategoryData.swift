@@ -8,6 +8,11 @@
 import Foundation
 
 final class CategoryData: ObservableObject {
-    @Published var categories: [Category] = load("categoryData.json")
+    @Published var category: [Category] = load("categoryData.json")
     
+    var categories: [String: [Category]] {
+        Dictionary(
+            grouping: category,
+            by: { $0.name })
+    }
 }
