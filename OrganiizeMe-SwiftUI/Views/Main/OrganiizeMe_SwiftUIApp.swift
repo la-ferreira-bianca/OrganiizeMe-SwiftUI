@@ -13,7 +13,9 @@ struct OrganiizeMe_SwiftUIApp: App {
     
     var body: some Scene {
         WindowGroup {
-            ContentView().environmentObject(TaskData())
+            ContentView()
+                .environmentObject(TaskData())
+                .environmentObject(CategoryData())
         }
     }
 }

@@ -33,6 +33,7 @@
 		F1501AE12A212FFE008A73B4 /* ProfileSummary.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1501AE02A212FFE008A73B4 /* ProfileSummary.swift */; };
 		F1501AE32A21315C008A73B4 /* ProfileEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1501AE22A21315C008A73B4 /* ProfileEditor.swift */; };
 		F1501AE52A213424008A73B4 /* CategoryItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1501AE42A213424008A73B4 /* CategoryItem.swift */; };
+		F177ADF42A3B92600046A402 /* AddTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = F177ADF32A3B92600046A402 /* AddTask.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -82,6 +83,7 @@
 		F1501AE02A212FFE008A73B4 /* ProfileSummary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileSummary.swift; sourceTree = "<group>"; };
 		F1501AE22A21315C008A73B4 /* ProfileEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileEditor.swift; sourceTree = "<group>"; };
 		F1501AE42A213424008A73B4 /* CategoryItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryItem.swift; sourceTree = "<group>"; };
+		F177ADF32A3B92600046A402 /* AddTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTask.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -256,6 +258,7 @@
 				F1501ACA2A21142F008A73B4 /* TaskList.swift */,
 				F1501ACE2A211628008A73B4 /* TaskDetail.swift */,
 				F1501AD32A211A9C008A73B4 /* TaskRow.swift */,
+				F177ADF32A3B92600046A402 /* AddTask.swift */,
 			);
 			path = Task;
 			sourceTree = "<group>";
@@ -428,6 +431,7 @@
 				F1288C762A26756A0062DED2 /* Category.swift in Sources */,
 				F1501A912A2110ED008A73B4 /* OrganiizeMe_SwiftUIApp.swift in Sources */,
 				F1501ADD2A212E34008A73B4 /* ProfileHost.swift in Sources */,
+				F177ADF42A3B92600046A402 /* AddTask.swift in Sources */,
 				F1501AE52A213424008A73B4 /* CategoryItem.swift in Sources */,
 				F135628A2A2139DE00B204D3 /* Home.swift in Sources */,
 				F1501AE12A212FFE008A73B4 /* ProfileSummary.swift in Sources */,

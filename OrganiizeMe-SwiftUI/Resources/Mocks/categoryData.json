@@ -16,59 +16,5 @@
         "id": 1003,
         "description": "Descrição da task",
         "iconName": "t.square.fill"
-    },
-    {
-        "name": "St. Mary Lake",
-        "id": 1004,
-        "description": "Descrição da task",
-        "iconName": "person.crop.circle.badge.exclamationmark.fill"
-    },
-    {
-        "name": "Twin Lake",
-        "id": 1005,
-        "description": "Descrição da task",
-        "iconName": "photo.artframe"
-    },
-    {
-        "name": "Lake McDonald",
-        "id": 1006,
-        "description": "Descrição da task",
-        "iconName": "basketball.circle.fill"
-    },
-    {
-        "name": "Charley Rivers",
-        "id": 1007,
-        "description": "Descrição da task",
-        "iconName": "tennis.racket.circle.fill"
-    },
-    {
-        "name": "Icy Bay",
-        "id": 1008,
-        "description": "Descrição da task",
-        "iconName": "sunset.circle"
-    },
-    {
-        "name": "Rainbow Lake",
-        "id": 1009,
-        "description": "Descrição da task",
-        "iconName": "arrow.up.left.and.down.right.magnifyingglass"
-    },
-    {
-        "name": "Hidden Lake",
-        "id": 1010,
-        "description": "Descrição da task",
-        "iconName": "rectangle.split.1x2.fill"
-    },
-    {
-        "name": "Chincoteague",
-        "id": 1011,
-        "description": "Descrição da task",
-        "iconName": "rectangle.portrait.on.rectangle.portrait.fill"
-    },
-    {
-        "name": "Lake Umbagog",
-        "id": 1012,
-        "description": "Descrição da task",
-        "iconName": "arrow.counterclockwise.icloud.fill"
     }
 ]

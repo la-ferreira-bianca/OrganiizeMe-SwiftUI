@@ -12,23 +12,39 @@ struct Home: View {
     @EnvironmentObject var taskData: TaskData
     @EnvironmentObject var categoryData: CategoryData
     @State private var showingProfile: Bool = false
+    @State private var showingAddTask: Bool = false
     
     var body: some View {
-        NavigationView{
+        NavigationView {
             VStack {
-                Text("Inserir um novo item")
-                Text("Items de hoje")
-                List {
-                    ForEach(categoryData.categories.keys.sorted(), id: \.self) { key in
-                        CategoryRow(categoryName: key, categories: categoryData.categories[key]!)
+                HStack {
+                    Button {
+                        showingAddTask.toggle()
+                    } label: {
+                        Text("Adicionar Tarefa")
+                    }.sheet(isPresented: $showingAddTask) {
+                        showingAddTask = false
+                    } content: {
+                        AddTask()
                     }
-                }
-                List {
-                    ForEach((0..<3), id: \.self) { _ in
-                        Text("")
-                    }
+
+
+                    Text("Items de hoje")
                 }
                 
+                List {
+                    Text("Minhas Categorias")
+                    ForEach(categoryData.category, id: \.self) { key in
+                        CategoryRow(category: key)
+                    }
+                    
+                    Spacer()
+                    
+                    Text("Minhas Tarefas")
+                    ForEach(taskData.tasks, id: \.self) { key in
+                        TaskRow(task: key)
+                    }
+                }
             }
             .toolbar {
                 Button {
@@ -42,12 +58,16 @@ struct Home: View {
             ProfileHost()
                 .environmentObject(TaskData())
                 .environmentObject(CategoryData())
+        }.onDisappear {
+            showingProfile = false
         }
     }
 }
 
 struct Home_Previews: PreviewProvider {
     static var previews: some View {
-        Home().environmentObject(TaskData())
+        Home()
+            .environmentObject(TaskData())
+            .environmentObject(CategoryData())
     }
 }

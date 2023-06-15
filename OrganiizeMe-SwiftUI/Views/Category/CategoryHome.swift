@@ -15,11 +15,12 @@ struct CategoryHome: View {
     var body: some View {
         NavigationView {
             List {
-                ForEach(categoryData.categories.keys.sorted(), id: \.self) { key in
-                    CategoryRow(categoryName: key, categories: categoryData.category)
+                ForEach(categoryData.category, id: \.self) { key in
+                    CategoryRow(category: key)
                 }
                 .listRowInsets(EdgeInsets())
             }
+            .padding(.leading)
             .listStyle(.inset)
             .navigationTitle("Categories")
             .toolbar {
