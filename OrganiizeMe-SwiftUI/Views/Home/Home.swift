@@ -59,7 +59,7 @@ struct Home: View {
                 .environmentObject(TaskData())
                 .environmentObject(CategoryData())
         }.onDisappear {
-            showingProfile = false
+            showingProfile.toggle()
         }
     }
 }

@@ -10,7 +10,7 @@ import SwiftUI
 struct CategoryHome: View {
     @EnvironmentObject var taskData: TaskData
     @EnvironmentObject var categoryData: CategoryData
-    @State private var showingProfile: Bool = false
+    @State private var showingNewCateogory: Bool = false
     
     var body: some View {
         NavigationView {
@@ -25,15 +25,18 @@ struct CategoryHome: View {
             .navigationTitle("Categories")
             .toolbar {
                 Button {
-                    showingProfile.toggle()
+                    showingNewCateogory.toggle()
                 } label: {
-                    Label("User Profile", systemImage: "person.crop.circle")
+                    Label("NewCategory", systemImage: "plus.square.on.square")
                 }
             }
         }
-        .sheet(isPresented: $showingProfile) {
-            ProfileHost().environmentObject(TaskData())
+        .sheet(isPresented: $showingNewCateogory) {
+            AddCategory()
+                .presentationDetents([.height(300), .medium])
+                .presentationDragIndicator(.visible)
         }
+        
     }
 }
 

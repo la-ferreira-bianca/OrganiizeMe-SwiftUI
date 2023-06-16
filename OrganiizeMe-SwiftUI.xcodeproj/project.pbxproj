@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F12463722A3C969200E53CAC /* AddCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = F12463712A3C969200E53CAC /* AddCategory.swift */; };
 		F1288C762A26756A0062DED2 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1288C752A26756A0062DED2 /* Category.swift */; };
 		F1288C782A2676830062DED2 /* categoryData.json in Resources */ = {isa = PBXBuildFile; fileRef = F1288C772A2676830062DED2 /* categoryData.json */; };
 		F1288C7D2A2676F00062DED2 /* CategoryData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1288C7C2A2676F00062DED2 /* CategoryData.swift */; };
@@ -54,6 +55,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F12463712A3C969200E53CAC /* AddCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCategory.swift; sourceTree = "<group>"; };
 		F1288C752A26756A0062DED2 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
 		F1288C772A2676830062DED2 /* categoryData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = categoryData.json; sourceTree = "<group>"; };
 		F1288C7C2A2676F00062DED2 /* CategoryData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryData.swift; sourceTree = "<group>"; };
@@ -269,6 +271,7 @@
 				F1501AD72A211BCF008A73B4 /* CategoryHome.swift */,
 				F1501AD92A211D15008A73B4 /* CategoryRow.swift */,
 				F1501AE42A213424008A73B4 /* CategoryItem.swift */,
+				F12463712A3C969200E53CAC /* AddCategory.swift */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -426,6 +429,7 @@
 				F1501AD42A211A9C008A73B4 /* TaskRow.swift in Sources */,
 				F1501ACD2A21144B008A73B4 /* TaskData.swift in Sources */,
 				F1501AD22A2117A6008A73B4 /* FavoriteButton.swift in Sources */,
+				F12463722A3C969200E53CAC /* AddCategory.swift in Sources */,
 				F1501AC72A21139F008A73B4 /* Task.swift in Sources */,
 				F1288C7F2A26772D0062DED2 /* LoadFromFile.swift in Sources */,
 				F1288C762A26756A0062DED2 /* Category.swift in Sources */,

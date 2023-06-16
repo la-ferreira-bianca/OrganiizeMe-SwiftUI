@@ -17,6 +17,7 @@ struct CategoryRow: View {
                 Text(category.name)
                     .font(.headline)
             }
+            .frame(height: 50)
         }
     }
 }
