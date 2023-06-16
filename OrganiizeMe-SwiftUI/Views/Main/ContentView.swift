@@ -24,7 +24,7 @@ struct ContentView: View {
                 }
                 .tag(Tab.home)
             
-            TaskList()
+            TaskHome()
                 .tabItem {
                     Label("Tarefas", systemImage: "list.bullet")
                 }

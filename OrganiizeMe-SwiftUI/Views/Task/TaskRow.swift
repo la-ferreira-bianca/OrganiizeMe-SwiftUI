@@ -11,19 +11,17 @@ struct TaskRow: View {
     var task: Task
     
     var body: some View {
-        HStack {
+        HStack(alignment: .center) {
             Image(systemName: task.imageName)
-                .resizable()
-                .frame(width: 50, height: 50)
             
             Text(task.name)
-            Spacer()
             
             if task.isFavorite {
                 Image(systemName: "star.fill")
                     .foregroundColor(.yellow)
             }
         }
+        .frame(height: 50)
     }
 }
 

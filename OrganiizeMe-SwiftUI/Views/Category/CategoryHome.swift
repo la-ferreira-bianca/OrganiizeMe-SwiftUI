@@ -36,7 +36,6 @@ struct CategoryHome: View {
                 .presentationDetents([.height(300), .medium])
                 .presentationDragIndicator(.visible)
         }
-        
     }
 }
 

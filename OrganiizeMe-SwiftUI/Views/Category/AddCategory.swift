@@ -28,8 +28,7 @@ struct AddCategory: View {
         VStack(alignment: .center) {
             Text("Nova Categoria")
                 .font(.title2)
-                .fontDesign(.rounded)
-                .foregroundColor(.blue)
+                .padding(.top)
             
             HStack {
                 Image(systemName: "mug")
@@ -56,6 +55,7 @@ struct AddCategory: View {
             HStack {
                 Text("Icone: ")
                     .font(.title3)
+                    .foregroundColor(.gray)
                 Picker("Categoria", selection: $selectedIcon) {
                     ForEach(CategoryIcons.allCases, id: \.self) {
                         $0.image
@@ -69,8 +69,15 @@ struct AddCategory: View {
             Button {
                 print("Adicionar category")
             } label: {
-                Text("Adicionar")
+                Text("Criar")
+                    .frame(width: 200, height: 15)
+                    .font(.headline)
+                    .foregroundColor(.white)
+                    .padding()
+                    .background(Color.blue.opacity(0.8))
+                    .cornerRadius(10)
             }
+            .padding(.bottom)
             
         }
         .padding(.all)

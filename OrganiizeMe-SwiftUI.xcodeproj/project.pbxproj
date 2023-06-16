@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		F12463722A3C969200E53CAC /* AddCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = F12463712A3C969200E53CAC /* AddCategory.swift */; };
+		F12463742A3CB1C200E53CAC /* TaskHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = F12463732A3CB1C200E53CAC /* TaskHome.swift */; };
 		F1288C762A26756A0062DED2 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1288C752A26756A0062DED2 /* Category.swift */; };
 		F1288C782A2676830062DED2 /* categoryData.json in Resources */ = {isa = PBXBuildFile; fileRef = F1288C772A2676830062DED2 /* categoryData.json */; };
 		F1288C7D2A2676F00062DED2 /* CategoryData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1288C7C2A2676F00062DED2 /* CategoryData.swift */; };
@@ -22,7 +23,6 @@
 		F1501AAE2A2110EE008A73B4 /* OrganiizeMe_SwiftUIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1501AAD2A2110EE008A73B4 /* OrganiizeMe_SwiftUIUITestsLaunchTests.swift */; };
 		F1501AC52A21133C008A73B4 /* taskData.json in Resources */ = {isa = PBXBuildFile; fileRef = F1501AC42A21133C008A73B4 /* taskData.json */; };
 		F1501AC72A21139F008A73B4 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1501AC62A21139F008A73B4 /* Task.swift */; };
-		F1501ACB2A21142F008A73B4 /* TaskList.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1501ACA2A21142F008A73B4 /* TaskList.swift */; };
 		F1501ACD2A21144B008A73B4 /* TaskData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1501ACC2A21144B008A73B4 /* TaskData.swift */; };
 		F1501ACF2A211628008A73B4 /* TaskDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1501ACE2A211628008A73B4 /* TaskDetail.swift */; };
 		F1501AD22A2117A6008A73B4 /* FavoriteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1501AD12A2117A6008A73B4 /* FavoriteButton.swift */; };
@@ -56,6 +56,7 @@
 
 /* Begin PBXFileReference section */
 		F12463712A3C969200E53CAC /* AddCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCategory.swift; sourceTree = "<group>"; };
+		F12463732A3CB1C200E53CAC /* TaskHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskHome.swift; sourceTree = "<group>"; };
 		F1288C752A26756A0062DED2 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
 		F1288C772A2676830062DED2 /* categoryData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = categoryData.json; sourceTree = "<group>"; };
 		F1288C7C2A2676F00062DED2 /* CategoryData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryData.swift; sourceTree = "<group>"; };
@@ -73,7 +74,6 @@
 		F1501AAD2A2110EE008A73B4 /* OrganiizeMe_SwiftUIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrganiizeMe_SwiftUIUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		F1501AC42A21133C008A73B4 /* taskData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = taskData.json; sourceTree = "<group>"; };
 		F1501AC62A21139F008A73B4 /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
-		F1501ACA2A21142F008A73B4 /* TaskList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskList.swift; sourceTree = "<group>"; };
 		F1501ACC2A21144B008A73B4 /* TaskData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskData.swift; sourceTree = "<group>"; };
 		F1501ACE2A211628008A73B4 /* TaskDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskDetail.swift; sourceTree = "<group>"; };
 		F1501AD12A2117A6008A73B4 /* FavoriteButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteButton.swift; sourceTree = "<group>"; };
@@ -257,10 +257,10 @@
 		F1501AD52A211BAB008A73B4 /* Task */ = {
 			isa = PBXGroup;
 			children = (
-				F1501ACA2A21142F008A73B4 /* TaskList.swift */,
 				F1501ACE2A211628008A73B4 /* TaskDetail.swift */,
 				F1501AD32A211A9C008A73B4 /* TaskRow.swift */,
 				F177ADF32A3B92600046A402 /* AddTask.swift */,
+				F12463732A3CB1C200E53CAC /* TaskHome.swift */,
 			);
 			path = Task;
 			sourceTree = "<group>";
@@ -418,7 +418,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F1501ACB2A21142F008A73B4 /* TaskList.swift in Sources */,
 				F1288C7D2A2676F00062DED2 /* CategoryData.swift in Sources */,
 				F1501ADF2A212E6B008A73B4 /* Profile.swift in Sources */,
 				F1501AD82A211BCF008A73B4 /* CategoryHome.swift in Sources */,
@@ -435,6 +434,7 @@
 				F1288C762A26756A0062DED2 /* Category.swift in Sources */,
 				F1501A912A2110ED008A73B4 /* OrganiizeMe_SwiftUIApp.swift in Sources */,
 				F1501ADD2A212E34008A73B4 /* ProfileHost.swift in Sources */,
+				F12463742A3CB1C200E53CAC /* TaskHome.swift in Sources */,
 				F177ADF42A3B92600046A402 /* AddTask.swift in Sources */,
 				F1501AE52A213424008A73B4 /* CategoryItem.swift in Sources */,
 				F135628A2A2139DE00B204D3 /* Home.swift in Sources */,

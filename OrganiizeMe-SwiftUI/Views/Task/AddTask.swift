@@ -21,29 +21,62 @@ struct AddTask: View {
     
     var body: some View {
         VStack(alignment: .center) {
-            Text("Adicionar nova tarefa")
-            TextField("Nome da Task", text: $taskName)
-            TextField("Descrição", text: $taskDescription)
-            VStack {
-                Text("Selecionar Categoria")
+            Text("Nova tarefa")
+                .font(.title2)
+            
+            HStack {
+                Image(systemName: "paperclip")
+                    .foregroundColor(.gray)
+                
+                TextField("Nome", text: $taskName)
+                    .font(.headline)
+            }
+            .padding()
+            .overlay(RoundedRectangle(cornerRadius: 10)
+                .stroke(Color.gray, lineWidth: 1))
+            
+            HStack {
+                Image(systemName: "list.clipboard")
+                    .foregroundColor(.gray)
+                
+                TextField("Descrição", text: $taskName)
+                    .font(.headline)
+            }
+            .padding()
+            .overlay(RoundedRectangle(cornerRadius: 10)
+                .stroke(Color.gray, lineWidth: 1))
+            
+            HStack {
+                Text("Categoria:")
                 Picker("Categoria", selection: $selectedCategory) {
                     ForEach(categoryData.categories.keys.sorted(), id: \.self) {
                         Text($0)
                     }
                 }
+                .pickerStyle(.inline)
             }
+            .frame(height: 100)
             
-            DatePicker("Data inicio", selection: $initialDate)
-            DatePicker("Data final", selection: $finalDate)
+            DatePicker("Data inicio:", selection: $initialDate)
+                .datePickerStyle(.compact)
+            DatePicker("Data final:", selection: $finalDate)
+                .padding(.bottom)
             
             Button {
                 print("Adicionar tarefa")
             } label: {
-                Text("Adicionar")
+                Text("Criar")
+                    .frame(width: 200, height: 15)
+                    .font(.headline)
+                    .foregroundColor(.white)
+                    .padding()
+                    .background(Color.blue.opacity(0.8))
+                    .cornerRadius(10)
             }
+            .padding(.bottom)
 
         }
-        .padding(.leading)
+        .padding(.all)
     }
 }
 

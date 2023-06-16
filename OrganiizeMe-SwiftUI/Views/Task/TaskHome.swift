@@ -1,15 +1,15 @@
 //
-//  TaskList.swift
+//  TaskHome.swift
 //  OrganiizeMe-SwiftUI
 //
-//  Created by Bianca Ferreira on 26/05/23.
+//  Created by Bianca Ferreira on 16/06/23.
 //
 
 import SwiftUI
 
-struct TaskList: View {
+struct TaskHome: View {
     @EnvironmentObject var taskData: TaskData
-    //TODO: Change to see what is going to be if favority or other thing
+    @State private var showingNewCateogory: Bool = false
     @State private var showFavorityOnly = false
     
     var filtredTasks: [Task] {
@@ -33,13 +33,29 @@ struct TaskList: View {
                     }
                 }
             }
+            .padding(.leading)
+            .listStyle(.inset)
             .navigationTitle("Tarefas")
+            .toolbar {
+                Button {
+                    showingNewCateogory.toggle()
+                } label: {
+                    Label("NewCategory", systemImage: "plus.square.on.square")
+                }
+            }
+        }
+        .sheet(isPresented: $showingNewCateogory) {
+            AddTask()
+                .environmentObject(CategoryData())
+                .presentationDetents([.height(500)])
+                .presentationDragIndicator(.visible)
         }
     }
 }
 
-struct TaskList_Previews: PreviewProvider {
+struct TaskHome_Previews: PreviewProvider {
     static var previews: some View {
-        TaskList().environmentObject(TaskData())
+        TaskHome()
+            .environmentObject(TaskData())
     }
 }
