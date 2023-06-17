@@ -35,7 +35,7 @@ struct ContentView: View {
                     Label("Categorias", systemImage: "star")
                 }
                 .tag(Tab.category)
-        }
+        }.toolbarBackground(Color.gray, for: .automatic)
     }
 }
 

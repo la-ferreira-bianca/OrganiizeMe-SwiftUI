@@ -58,8 +58,6 @@ struct Home: View {
             ProfileHost()
                 .environmentObject(TaskData())
                 .environmentObject(CategoryData())
-        }.onDisappear {
-            showingProfile.toggle()
         }
     }
 }
