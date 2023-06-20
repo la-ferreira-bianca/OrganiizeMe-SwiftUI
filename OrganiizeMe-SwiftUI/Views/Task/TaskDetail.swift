@@ -9,7 +9,9 @@ import SwiftUI
 
 struct TaskDetail: View {
     //MARK: - @Variables
+    
     @EnvironmentObject var taskData: TaskData
+    @State private var date = Date()
     
     //MARK: - Variables
     var padding = EdgeInsets(top: 0, leading: 10, bottom: 0, trailing: 10)
@@ -42,8 +44,27 @@ struct TaskDetail: View {
                 Spacer()
                 
                 Text(task.description)
+                
+                if task.hasDeadline {
+                    HStack {
+                        Text("Data limite: ")
+                        Text(dateFormatter.string(from: Date.now))
+                            .font(.largeTitle)
+                            .foregroundColor(.red)
+                            .padding()
+                    }
+                    
+                }
+                
             }
         }.padding(padding)
+    }
+    
+    private var dateFormatter: DateFormatter {
+        let formatter = DateFormatter()
+        formatter.dateStyle = .long
+        formatter.timeStyle = .none
+        return formatter
     }
 }
 

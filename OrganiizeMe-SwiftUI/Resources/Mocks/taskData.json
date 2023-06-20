@@ -10,7 +10,9 @@
         "id": 1001,
         "isFavorite": true,
         "description": "Descrição da task",
-        "imageName": "house"
+        "imageName": "house",
+        "hasDeadline": false,
+        "finalDate": "nil"
     },
     {
         "name": "Silver Salmon Creek",
@@ -23,7 +25,9 @@
         "id": 1002,
         "isFavorite": false,
         "description": "Descrição da task",
-        "imageName": "tree.fill"
+        "imageName": "tree.fill",
+        "hasDeadline": true,
+        "finalDate": "2023-01-12"
     },
     {
         "name": "Chilkoot Trail",
@@ -36,7 +40,9 @@
         "id": 1003,
         "isFavorite": true,
         "description": "Descrição da task",
-        "imageName": "t.square.fill"
+        "imageName": "t.square.fill",
+        "hasDeadline": true,
+        "finalDate": "2023-01-10"
     },
     {
         "name": "St. Mary Lake",
@@ -49,7 +55,9 @@
         "id": 1004,
         "isFavorite": true,
         "description": "Descrição da task",
-        "imageName": "person.crop.circle.badge.exclamationmark.fill"
+        "imageName": "person.crop.circle.badge.exclamationmark.fill",
+        "hasDeadline": false,
+        "finalDate": "nil"
     },
     {
         "name": "Twin Lake",
@@ -62,97 +70,8 @@
         "id": 1005,
         "isFavorite": false,
         "description": "Descrição da task",
-        "imageName": "photo.artframe"
-    },
-    {
-        "name": "Lake McDonald",
-        "category": {
-            "name": "Tarefa",
-            "id": 1005,
-            "description": "Tarefas que devo concluir",
-            "iconName": "photo.artframe"
-        },
-        "id": 1006,
-        "isFavorite": false,
-        "description": "Descrição da task",
-        "imageName": "basketball.circle.fill"
-    },
-    {
-        "name": "Charley Rivers",
-        "category": {
-            "name": "Tarefa",
-            "id": 1005,
-            "description": "Tarefas que devo concluir",
-            "iconName": "photo.artframe"
-        },
-        "id": 1007,
-        "isFavorite": false,
-        "description": "Descrição da task",
-        "imageName": "tennis.racket.circle.fill"
-    },
-    {
-        "name": "Icy Bay",
-        "category": {
-            "name": "Tarefa",
-            "id": 1005,
-            "description": "Tarefas que devo concluir",
-            "iconName": "photo.artframe"
-        },
-        "id": 1008,
-        "isFavorite": false,
-        "description": "Descrição da task",
-        "imageName": "sunset.circle"
-    },
-    {
-        "name": "Rainbow Lake",
-        "category": {
-            "name": "Dia a Dia",
-            "id": 1005,
-            "description": "Tarefas que devo concluir dia a dia",
-            "iconName": "photo.artframe"
-        },
-        "id": 1009,
-        "isFavorite": false,
-        "description": "Descrição da task",
-        "imageName": "arrow.up.left.and.down.right.magnifyingglass"
-    },
-    {
-        "name": "Hidden Lake",
-        "category": {
-            "name": "Dia a Dia",
-            "id": 1005,
-            "description": "Tarefas que devo concluir dia a dia",
-            "iconName": "photo.artframe"
-        },
-        "id": 1010,
-        "isFavorite": false,
-        "description": "Descrição da task",
-        "imageName": "rectangle.split.1x2.fill"
-    },
-    {
-        "name": "Chincoteague",
-        "category": {
-            "name": "Dia a Dia",
-            "id": 1005,
-            "description": "Tarefas que devo concluir dia a dia",
-            "iconName": "photo.artframe"
-        },
-        "id": 1011,
-        "isFavorite": false,
-        "description": "Descrição da task",
-        "imageName": "rectangle.portrait.on.rectangle.portrait.fill"
-    },
-    {
-        "name": "Lake Umbagog",
-        "category": {
-            "name": "Dia a Dia",
-            "id": 1005,
-            "description": "Tarefas que devo concluir dia a dia",
-            "iconName": "photo.artframe"
-        },
-        "id": 1012,
-        "isFavorite": false,
-        "description": "Descrição da task",
-        "imageName": "arrow.counterclockwise.icloud.fill"
+        "imageName": "photo.artframe",
+        "hasDeadline": true,
+        "finalDate": "2023-01-10"
     }
 ]

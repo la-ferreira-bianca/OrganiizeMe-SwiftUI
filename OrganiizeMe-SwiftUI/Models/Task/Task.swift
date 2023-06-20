@@ -8,10 +8,19 @@
 import Foundation
 
 struct Task: Hashable, Codable, Identifiable {
-    var id: Int
-    var name: String
-    var description: String
-    var imageName: String
+    let name: String
+    let category: Category
+    let id: Int
     var isFavorite: Bool
-    var category: Category
+    let description: String
+    let imageName: String
+    let hasDeadline: Bool
+    let finalDate: String
+    
+    struct Category: Codable, Hashable {
+        let name: String
+        let id: Int
+        let description: String
+        let iconName: String
+    }
 }
